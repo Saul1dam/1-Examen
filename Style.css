@@ -1,0 +1,157 @@
+html{
+    font-size:  62.5%;
+    box-sizing: border-box;
+
+
+}
+*,*::before, *:after{
+    box-sizing: inherit;
+}
+.primero{
+    background-color:rgb(31, 27, 97);
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.primero h2{
+    padding-top: 3rem;
+    padding-left: 3rem;
+    color: white;
+    scale: 002;
+}
+
+.under{
+    padding-top: 3rem;
+    margin-right: 15rem;
+    color: white;
+    text-align: center;
+    scale: 02;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color:greenyellow;
+}
+h1{
+    color: white;
+    scale: 03;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 8rem;
+    margin-top: 15rem;
+}
+h1 span{
+    
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+}
+
+h2 span{
+    
+
+}
+.title{
+    margin-right: 40rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.imagen1{
+    margin-right: 70rem;
+    justify-content: center;
+    align-items: center;
+    scale: 0.3;
+}
+.button{
+    justify-content: center;
+    background-color: greenyellow;
+    color:var(--blanco);
+    padding:1rem 3rem;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-weight:bold;
+    border: none;
+    border-radius: .5rem;
+    width:90%;
+    text-align:center;
+}
+.boton{
+    text-align: center;
+
+}
+.titulos{
+    display: flex;
+    flex-direction: row;
+}
+.segunda{
+    padding-bottom: 9rem;
+    text-align: center;
+    justify-content: center;
+
+}
+h4{
+    padding: 1rem;
+    color:blueviolet ;
+    scale: 02;
+}
+.circle{
+    margin-left: 5rem;
+    margin-right: 5rem; 
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+    text-align: center;
+    display:flex;
+    border-color: black;  
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: none;
+    flex-direction: column;  
+    scale: 02;
+    
+}
+.segunda p{
+    scale: 01;
+}
+.tercera{
+    scale: 01;
+}
+@media (min-width:768px){
+    .under{
+        padding-left: 5rem; 
+    }
+    .segunda{
+        display: flex;
+        flex-direction: row;
+    }
+    .imagen1{
+        padding-right: 50rem;
+    }
+
+}
+.tercera{
+    padding-top: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(31, 27, 97);
+}
+.tercera h2{
+    scale: 02;
+    padding-bottom: 1rem;
+}
+.tercera p{
+    padding-bottom: 3rem;
+}
+.final{
+    padding-top: 4rem;
+    text-align: center;
+    scale: 02;
+    color: black;
+}
